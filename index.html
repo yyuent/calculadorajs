@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="script2.js"></script>
+    </head>
+    <body style="background-image:url('textura.png');">
+        <div class="logo uat" style="background-image:url('logo-uat.png');"></div>
+        <div class="logo fadu" style="background-image:url('logo-fadu.png');"></div>
+        <div class="clear"></div>
+        <div class="contenedor">
+            <p style="text-align: center;">¡Hola, Mi nombre es Yanin Valeria Yuen Torres y soy estudiante de la carrera de Diseño Gráfico y Animación Digital!</p>
+            <h1 class="titulo">CÁLCULO DE ÁREAS Y PERÍMETROS</h1>
+            <p>Ingresa los valores de los datos que se solicitan, por favor.</p>
+            <div class="datos">
+                <h5 for="">CIRCULO</h5>
+                <label for="">Tamaño del Radio:</label>
+                <input type="text" id="radio" placeholder="Radio"></input>
+            </div>
+        
+            <div class="datos"> 
+                <h5>CUADRADO</h5>
+                <label for="">Tamaño del lado:</label>
+                <input type="text" id="ladoC" placeholder="Lado del cuadrado"></input>
+            </div>
+            <div class="datos">
+                <h5>RECTÁNGULO</h5>
+                <label for="">Tamaño de la base:</label>
+                <input type="text" id="baseR" placeholder="Base"></input>
+                <br>
+                <label for="">Tamaño de la altura:</label>
+                <input type="text" id="alturaR" placeholder="Altura"></input>
+            </div>
+            <div class="clear"></div>
+            <br>
+            <a class="boton" href="javascript:calcular();">Calcular</a>
+
+            <div id="resultados" style="display:none;">
+                <h1>RESULTADOS</h1>
+                <h5>CIRCULO</h5>
+                <label for="">Área:</label>
+                <input type="text" disabled name="" id="areaCirculo">
+                <label for="">Perímetro:</label>
+                <input type="text" disabled name="" id="perCirculo">
+                <br>
+                <h5>CUADRADO</h5>
+                <label for="">Área:</label>
+                <input type="text" disabled name="" id="areaCuad">
+                <label for="">Perímetro:</label>
+                <input type="text" disabled name="" id="perCuad">
+                <br>
+                <h5>RECTÁNGULO</h5>
+                <label for="">Área:</label>
+                <input type="text" disabled name="" id="areaRec">
+                <label for="">Perímetro:</label>
+                <input type="text" disabled name="" id="perRec">
+
+                <a href="javascript:limpiar();" class="boton"> Limpiar</a>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

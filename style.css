@@ -1,0 +1,68 @@
+html,body{
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 80px;
+    margin: 0 30px ;
+}
+.uat{
+    float: left;
+    width: 400px;
+}
+.fadu{
+    float: right;
+    width: 200px;
+}
+
+.titulo{
+    color: #174468;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.datos{
+    float: left;
+    margin: 0 20px;
+}
+
+.boton{
+    display: block;
+    background-color: #bb6228;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 14pt;
+    margin-right: 20%;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.boton:hover{
+    background-color: coral;
+    text-decoration:underline;
+    transition: all 0.2s;
+}
+
+
+#resultados{
+    margin-bottom: 50px;
+}
+h1{
+    color: #bb6228;
+}
